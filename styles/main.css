@@ -5,11 +5,11 @@ body {
 }
 a:focus, a:hover {
     font-style: italic;
-    color: green;
+    color: orangered;
 }
 header h1 {
     font-size: 175%;
-    color: red;
+    color: maroon;
     text-indent: 30px;
 }
 header h2 {
@@ -28,7 +28,7 @@ main {
 }
 main h3 {
     margin-top: 3em;
-    font-size: 105;
+    font-size: 105%;
 }
 #list {
     line-height: 1.5em;
