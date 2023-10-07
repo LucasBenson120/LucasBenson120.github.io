@@ -1,3 +1,6 @@
+html {
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -26,6 +29,7 @@ header h2 {
 }
 img {
     float: left;
+    margin-left: auto;
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(128,0,0);
@@ -41,10 +45,24 @@ main h3 {
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
+main nav {
+    margin: 1.5em 2em 1.5em 2em;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
+}
 #list {
     line-height: 1.5em;
 }
 footer p.copyright {
     text-align: center;
     font-size: 80%;
+}
+main div {
+    margin: 1.5em 2em 0em 2em;
+    border: 5px dotted blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px;
+    padding: 1em;
 }
