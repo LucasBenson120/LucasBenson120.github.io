@@ -10,7 +10,7 @@ body article img {
 body aside ul li ol li {
     list-style-type: upper-roman;
 }
-body aside ul li ol ul {
+body aside ul li ol ul li {
     list-style-type: circle;
 }
 #navigation_menu ul {
