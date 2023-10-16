@@ -13,6 +13,9 @@ body aside ul li ol li {
 body aside ul li ol ul li {
     list-style-type: circle;
 }
+body aside ul {
+    list-style-type: none;
+}
 #navigation_menu ul {
     list-style-type: none;
 }
