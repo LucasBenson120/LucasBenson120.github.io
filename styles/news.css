@@ -8,7 +8,7 @@ body article img {
     margin-left: auto;
 }
 body aside ol{
-    list-style-type: lower-roman;
+    list-style-type: upper-roman;
 }
 #navigation_menu ul {
     list-style-type: none;
