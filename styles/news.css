@@ -7,8 +7,8 @@ body aside {
     float: right;
     background-color: lightblue;
     border: blue;
-    border-width: 1em;
-    padding: 1em;
+    border-width: 0.5em;
+    padding: 0.5em;
 }
 body article img {
     float: left;
