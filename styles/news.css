@@ -8,8 +8,6 @@ body aside {
     background-color: lightblue;
     border: blue;
     border-width: 1em;
-    width: 20%;
-    position: fixed;
 }
 body article img {
     float: left;
@@ -46,11 +44,4 @@ body aside ul {
 }
 #navigation_menu ul li a.current {
     color: yellow;
-}
-body {
-    width: 95%;
-    margin: 15px auto;
-}
-article {
-    width: 75%;
 }
