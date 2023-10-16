@@ -1,0 +1,5 @@
+body article p:first-letter {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.25em;
+}
