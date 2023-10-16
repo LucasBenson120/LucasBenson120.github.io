@@ -51,7 +51,13 @@ body {
     margin: 15px auto;
 }
 article {
+    clear: left;
     width: 75%;
+    float: left;
+    column-count: 3;
+    column-rule: 2px dotted blue;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 footer {
     border-top: 2px solid blue;
