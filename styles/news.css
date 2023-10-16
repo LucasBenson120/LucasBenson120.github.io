@@ -3,7 +3,13 @@
     font-weight: bold;
     font-size: 1.25em;
 }
-
+aside {
+    float: right;
+    position: fixed;
+    background-color: lightblue;
+    width: 20%;
+    right: 0;
+}
 body article img {
     float: left;
     margin-left: auto;
@@ -46,12 +52,4 @@ body {
 }
 article {
     width: 75%;
-}
-body aside {
-    float: right;
-    position: fixed;
-    background-color: lightblue;
-    border: blue;
-    width: 20%;
-    right: 0;
 }
