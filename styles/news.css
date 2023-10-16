@@ -6,7 +6,7 @@
 aside {
     float: right;
     background-color: lightblue;
-    border: blue;
+    border: 2px blue;
     width: 20%;
     position: fixed;
     right: 0;
