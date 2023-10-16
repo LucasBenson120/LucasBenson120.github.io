@@ -7,7 +7,7 @@ body article img {
     float: left;
     margin-left: auto;
 }
-body aside ul li ol {
+body aside ul li ol li {
     list-style-type: upper-roman;
 }
 body aside ul li ul {
