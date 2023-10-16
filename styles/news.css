@@ -5,6 +5,7 @@
 }
 aside{
     float: right;
+    position: fixed;
     background-color: lightblue;
     border: blue;
     width: 20%;
