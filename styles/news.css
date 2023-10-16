@@ -5,8 +5,8 @@
 }
 aside{
     float: right;
+    position: fixed;
     background-color: lightblue;
-    border: 1px solid blue;
     width: 20%;
     right: 0;
 }
