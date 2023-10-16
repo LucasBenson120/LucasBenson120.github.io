@@ -46,7 +46,7 @@ body {
 article {
     width: 75%;
 }
-body aside {
+aside {
     float: right;
     position: fixed;
     background-color: lightblue;
