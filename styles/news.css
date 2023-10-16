@@ -1,4 +1,4 @@
-body article p:first-letter {
+.First {
     font-style: italic;
     font-weight: bold;
     font-size: 1.25em;
