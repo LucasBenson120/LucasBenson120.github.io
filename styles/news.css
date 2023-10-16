@@ -3,14 +3,13 @@
     font-weight: bold;
     font-size: 1.25em;
 }
-aside {
+body aside {
     float: right;
+    position: fixed;
     background-color: lightblue;
     border: 2px blue;
     width: 20%;
-    position: fixed;
     right: 0;
-    bottom: 50%;
 }
 body article img {
     float: left;
