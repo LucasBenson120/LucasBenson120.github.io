@@ -3,7 +3,7 @@
     font-weight: bold;
     font-size: 1.25em;
 }
-body aside {
+aside {
     width: 20%;
     float: right;
     background-color: lightblue;
