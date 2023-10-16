@@ -68,3 +68,6 @@ article h1 {
 article h2 {
     color: blue;
 }
+header {
+    border-bottom: 2px solid blue;
+}
