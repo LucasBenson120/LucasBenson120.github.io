@@ -7,6 +7,9 @@ body article img {
     float: left;
     margin-left: auto;
 }
+body aside ol{
+    list-style-type: lower-roman;
+}
 #navigation_menu ul {
     list-style-type: none;
 }
