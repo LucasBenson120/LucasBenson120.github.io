@@ -8,8 +8,6 @@ aside.sidebar {
     float: right;
     background-color: lightblue;
     border: blue;
-    border-width: 1em;
-    padding: 1em;
     position: fixed;
 }
 body article img {
