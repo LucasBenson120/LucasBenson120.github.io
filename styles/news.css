@@ -6,17 +6,18 @@
 aside {
     float: right;
     background-color: lightblue;
-    width: 20%;
-    right: 0;
+    border: blue;
+    border-width: 1em;
+    padding: 1em;
 }
 body article img {
     float: left;
     margin-left: auto;
 }
-body aside ol li {
+body aside ul li ol li {
     list-style-type: upper-roman;
 }
-body aside ul li {
+body aside ul li ol ul li {
     list-style-type: square;
 }
 body aside ul {
