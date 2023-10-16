@@ -3,14 +3,6 @@
     font-weight: bold;
     font-size: 1.25em;
 }
-body aside {
-    float: right;
-    position: fixed;
-    background-color: lightblue;
-    border: 2px blue;
-    width: 20%;
-    right: 0;
-}
 body article img {
     float: left;
     margin-left: auto;
@@ -53,4 +45,12 @@ body {
 }
 article {
     width: 75%;
+}
+body aside {
+    float: right;
+    position: fixed;
+    background-color: lightblue;
+    border: 2px blue;
+    width: 20%;
+    right: 0;
 }
