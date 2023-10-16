@@ -7,8 +7,14 @@ body article img {
     float: left;
     margin-left: auto;
 }
-body aside ul ol{
+body aside ul li ol {
     list-style-type: upper-roman;
+}
+body aside ul li ul {
+    list-style-type: circle;
+}
+body aside ul {
+    list-style-type: none;
 }
 #navigation_menu ul {
     list-style-type: none;
