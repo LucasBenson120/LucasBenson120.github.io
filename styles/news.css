@@ -8,6 +8,7 @@ aside {
     background-color: lightblue;
     border: blue;
     border-width: 1em;
+    width: 20%;
 }
 body article img {
     float: left;
