@@ -3,6 +3,11 @@ body article p:first-letter {
     font-weight: bold;
     font-size: 1.25em;
 }
+body aside {
+    float: right;
+    background-color: lightblue;
+    border: blue;
+}
 body article img {
     float: left;
     margin-left: auto;
