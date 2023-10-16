@@ -3,11 +3,10 @@
     font-weight: bold;
     font-size: 1.25em;
 }
-aside.fixed {
+aside{
     float: right;
-    position: fixed;
     background-color: lightblue;
-    border: 2px solid blue;
+    border: blue;
     width: 20%;
     right: 0;
 }
