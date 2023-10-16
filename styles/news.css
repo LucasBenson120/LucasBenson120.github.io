@@ -18,7 +18,7 @@ body article img {
 body aside ul li ol li {
     list-style-type: upper-roman;
 }
-body aside ul li ol ul li {
+body aside ul li  {
     list-style-type: square;
 }
 body aside ul {
