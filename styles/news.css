@@ -5,6 +5,7 @@
 }
 aside.fixed {
     float: right;
+    position: fixed;
     background-color: lightblue;
     border: 2px solid blue;
     width: 20%;
