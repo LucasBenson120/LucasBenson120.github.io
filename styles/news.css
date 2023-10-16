@@ -11,7 +11,7 @@ body aside ul li ol li {
     list-style-type: upper-roman;
 }
 body aside ul li ol ul li {
-    list-style-type: circle;
+    list-style-type: disc;
 }
 body aside ul {
     list-style-type: none;
