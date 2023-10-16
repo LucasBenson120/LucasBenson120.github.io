@@ -7,7 +7,7 @@ body article img {
     float: left;
     margin-left: auto;
 }
-body aside ol{
+body aside ul li ol{
     list-style-type: upper-roman;
 }
 #navigation_menu ul {
