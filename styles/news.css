@@ -7,7 +7,7 @@ aside{
     float: right;
     position: fixed;
     background-color: lightblue;
-    border: blue;
+    border: 1px solid blue;
     width: 20%;
     right: 0;
 }
@@ -15,10 +15,10 @@ body article img {
     float: left;
     margin-left: auto;
 }
-body aside ul li ol li {
+body aside ol li {
     list-style-type: upper-roman;
 }
-body aside ul li  {
+body aside ul li {
     list-style-type: square;
 }
 body aside ul {
