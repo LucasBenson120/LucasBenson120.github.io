@@ -4,14 +4,12 @@
     font-size: 1.25em;
 }
 aside{
+    float: right;
     position: fixed;
-    top: 0;
-    right: 0;
     background-color: lightblue;
-    border: 1px solid blue; /* Specify border style and width */
+    border: 1px solid blue;
     width: 20%;
-    padding: 10px; /* Add padding for better aesthetics */
-    box-sizing: border-box; /* Include padding in the width */
+    right: 0;
 }
 body article img {
     float: left;
