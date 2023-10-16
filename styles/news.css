@@ -53,3 +53,6 @@ body {
 article {
     width: 75%;
 }
+footer {
+    border-top: 2px solid blue;
+}
