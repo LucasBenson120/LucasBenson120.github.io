@@ -4,7 +4,6 @@
     font-size: 1.25em;
 }
 aside {
-    width: 20%;
     float: right;
     background-color: lightblue;
     border: blue;
@@ -46,4 +45,11 @@ body aside ul {
 }
 #navigation_menu ul li a.current {
     color: yellow;
+}
+body {
+    width: 95%;
+    margin: 15px auto;
+}
+article {
+    width: 75%;
 }
