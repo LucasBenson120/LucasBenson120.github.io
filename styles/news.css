@@ -3,3 +3,29 @@ body article p:first-letter {
     font-weight: bold;
     font-size: 1.25em;
 }
+body article h2 {
+    float: left;
+}
+#navigation_menu ul {
+    list-style-type: none;
+}
+#navigation_menu ul li {
+    float: left;
+}
+#navigation_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid white;
+}
+#navigation_menu ul li a.lastitem {
+    border-right: none;
+}
+#navigation_menu ul li a.current {
+    color: yellow;
+}
