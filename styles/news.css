@@ -14,10 +14,10 @@ body article img {
     float: left;
     margin-left: auto;
 }
-body aside ul li ol li {
+aside ol {
     list-style-type: upper-roman;
 }
-body aside ul li ol ul li {
+aside ul {
     list-style-type: square;
 }
 body aside ul {
