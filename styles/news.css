@@ -49,6 +49,7 @@ body aside ul {
 body {
     width: 95%;
     margin: 15px auto;
+    padding: 1em;
 }
 article {
     width: 75%;
