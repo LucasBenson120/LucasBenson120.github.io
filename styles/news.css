@@ -63,9 +63,11 @@ header {
     border-bottom: 2px solid blue;
     padding-bottom: 4em;
 }
-article h1 {
+body article h1 {
     color: blue;
+    font-size: 150%;
 }
-article h2 {
+body article h2 {
     color: blue;
+    font-size: 125%;
 }
