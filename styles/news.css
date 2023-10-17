@@ -33,7 +33,7 @@ body aside ul {
     text-align: center;
     display: block;
     width: 175px;
-    padding: 1em 0;
+    padding: 1em;
     text-decoration: none;
     background-color: blue;
     color: white;
@@ -51,7 +51,6 @@ body {
     margin: 15px auto;
 }
 article {
-    clear: left;
     width: 75%;
     float: left;
     column-count: 3;
