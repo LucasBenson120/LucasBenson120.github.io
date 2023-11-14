@@ -36,4 +36,8 @@ html, body {
     }
     table.third {
         vertical-align: top;
+        padding: 1em;
+    }
+    table.third tr {
+        border-top: 2px orange;
     }
