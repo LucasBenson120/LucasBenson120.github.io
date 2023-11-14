@@ -34,13 +34,9 @@ html, body {
     table.second thead tr:first-child{     
         border-bottom: 2px solid purple;
     }
-    table.third {
-        vertical-align: top;
-        padding: 1em;
-    }
 
     table.third th, table.third td {
-        padding: 4px;
+        padding: 2px;
         vertical-align: top;
       }
       
