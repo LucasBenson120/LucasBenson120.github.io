@@ -34,3 +34,6 @@ html, body {
     table.second thead tr:first-child{     
         border-bottom: 2px solid purple;
     }
+    table.third {
+        vertical-align: top;
+    }
