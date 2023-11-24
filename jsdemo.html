@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="styles/test_scores.js">
+    <title>Document</title>
 
 </head>
 <body>
@@ -23,6 +23,13 @@
         document.write(html2);
     </script>    
 
+    <h1>The Rectangle Area Calculator</h1>
+    <script>
+        var width = parseFloat(document.getElementById('width').value);
+        var height = parseFloat(document.getElementById('height').value);
+        var area = (width * height).toFixed(3);
+        document.getElementById('result').innerHTML = "The area of the rectangle is: " + area;
+    </script>
 
 
     
