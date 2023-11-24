@@ -10,7 +10,9 @@
 <body>
 
     <h1>The Test Scores App</h1>
-    <script src="test_scores.js"></script>  
+    <script src="test_scores.js">
+        document.write(html1);
+    </script>  
 
     <h1>The Miles Per Gallon Calculator</h1>
     <script>
@@ -28,6 +30,9 @@
         const width = parseFloat(document.getElementById('width').value);
         const height = parseFloat(document.getElementById('height').value);
         const area = (width * height).toFixed(3);
+        const html3 = `<p>Width: ${width}</p>
+                        <p>Height: ${height}</p>
+                        <p>Area: ${area.toFixed(3)}</p>`;
         document.write(html3);
     </script>
 
