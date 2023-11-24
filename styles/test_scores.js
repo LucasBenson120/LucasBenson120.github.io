@@ -16,3 +16,11 @@ const html1 = `<p>Score 1 = ${score1}</p>
               <p>Score 3 = ${score3}</p>
               <p>Average score = ${average}</p>`;
 document.write(html1);
+
+
+function calculateRectangleArea() {
+    var width = parseFloat(document.getElementById('width').value);
+    var height = parseFloat(document.getElementById('height').value);
+    var area = (width * height).toFixed(3);
+    document.getElementById('result').innerHTML = "The area of the rectangle is: " + area;
+  }
