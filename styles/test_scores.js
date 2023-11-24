@@ -1,3 +1,4 @@
+function Test_Score_Average() {
 let total = 0;
 
 const score1 = parseInt(prompt("Enter test score"));
@@ -16,7 +17,7 @@ const html1 = `<p>Score 1 = ${score1}</p>
               <p>Score 3 = ${score3}</p>
               <p>Average score = ${average}</p>`;
 document.write(html1);
-
+}
 
 function calculateRectangleArea() {
     var width = parseFloat(document.getElementById('width').value);
