@@ -1,4 +1,3 @@
-window.onload = function() {
     let total = 0;
   
     const score1 = parseFloat(prompt("Enter test score"));
@@ -17,4 +16,3 @@ window.onload = function() {
                   <p>Score 3 = ${score3}</p>
                   <p>Average score = ${average}</p>`;
     document.write(html1);
-  };
