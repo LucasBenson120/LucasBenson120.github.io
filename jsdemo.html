@@ -3,36 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="test_scores.js"></script>
     <title>Document</title>
-
 </head>
 <body>
 
     <h1>The Test Scores App</h1>
-    <script type="text/javascript">
-        function Total_Score(){
-
-        };
-    </script>  
+    <script src="test_scores.js"></script>   
 
     <h1>The Miles Per Gallon Calculator</h1>
     <script>
+        const miles = parseInt(prompt("Enter miles driven"));
+        const gallons = parseInt(prompt("Enter gallons of gas used"));
+        const mpg = parseFloat(miles/gallons);
+        const html2 = `<p>Miles: ${miles}</p>
+                        <p>Gallons: ${gallons}</p>
+                        <p>MPG: ${mpg.toFixed(2)}</p>`;
+        document.write(html2);
 
-    </script>    
-
-    <h1>The Rectangle Area Calculator</h1>
-    <script>
-        const width = parseFloat(document.getElementById('width').value);
-        const height = parseFloat(document.getElementById('height').value);
-        const area = (width * height).toFixed(3);
-        const html3 = `<p>Width: ${width}</p>
-                        <p>Height: ${height}</p>
-                        <p>Area: ${area.toFixed(3)}</p>`;
-        document.write(html3);
-    </script>
-
-
-    
+</script>    
 </body>
 </html>
