@@ -11,7 +11,15 @@
 
     <h1>The Test Scores App</h1>
     <script src="test_scores.js">
-        average_score();
+    
+    const score1 = parseInt(prompt("Enter miles driven"));
+        const score2 = parseInt(prompt("Enter gallons of gas used"));
+        const score3 = parseFloat(miles/gallons);
+        const html1 = `<p>Score 1 = ${score1}</p>
+                  <p>Score 2 = ${score2}</p>
+                  <p>Score 3 = ${score3}</p>
+                  <p>Average score = ${average}</p>`;
+        document.write(html1);
     </script>  
 
     <h1>The Miles Per Gallon Calculator</h1>

@@ -1,5 +1,4 @@
 function average_score()
-
     {let total = 0;
 
     const score1 = parseInt(prompt("Enter test score"));
