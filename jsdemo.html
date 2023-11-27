@@ -20,5 +20,17 @@
                         <p>MPG: ${mpg.toFixed(2)}</p>`;
         document.write(html2);
     </script>    
+
+    <h1>The Rectangle Area Calculator</h1>
+    <script>
+        const width = parseFloat(prompt("Enter the width"));
+        const height = parseFloat(prompt("Enter the height"));
+        const area = parseFloat(width * height).toFixed(3);
+
+        const html3 = `<p>Width: ${width}</p>
+                    <p>Height: ${height}</p>
+                    <p>Area: ${area}</p>`;
+        document.write(html3);
+    </script>
 </body>
 </html>
